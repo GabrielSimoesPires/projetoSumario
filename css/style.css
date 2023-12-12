@@ -1,0 +1,121 @@
+/* Geral */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Garante que o corpo da página ocupa pelo menos a altura da viewport */
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+/* Your Result */
+#sumario1 {
+    background: linear-gradient(to bottom, #6743ff, #312cea);
+    border-radius: 20px;
+    color: #fffffe;
+}
+#sumario1_1{
+    background: linear-gradient(to bottom, #4d22cb, #4633ed);
+}
+#yourresult{
+    color: #cec5fd;
+    font-size: 17px;
+}
+#p76{
+    font-size: 50px;
+    font-weight: 800;
+}
+#of100{
+ font-size: 12px;
+ font-weight: 100;
+ color: #cec5fd;
+}
+#p_great{
+    font-size: 21px;
+    font-weight: 700;
+}
+#p_youscored{
+    font-size: 13px;
+    font-weight: 100;
+    color: #cec5fd;
+}
+
+/* sumary */
+#sumario2 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #e9edfe;
+}
+#summary{
+    font-size: 19px;
+    font-weight: 800;
+}
+#sumario2 p{
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+#reaction {
+    background-color: #fff6f5; 
+}
+#reactionTitle{
+    color: #dc6c6e;
+    font-weight: 700;   
+}
+#reactionnumber{
+    font-weight: 800;
+}
+#reactionnumber2{
+    font-size: 100;
+    color: #979391;
+}
+#memory{
+    background-color: #fffbf2;   
+}
+#memoryTitle{
+    color: #e1b444;
+    font-weight: 700;
+}
+#memorynumber{
+    font-weight: 800;
+}
+#memorynumber2{
+    font-weight: 100;
+    color: #979391;
+}
+#verbal{
+    background-color: #f2fbfa;  
+}
+#verbalTitle{
+    color: #43b496;
+    font-weight: 700;
+}
+#verbalnumber{
+    font-weight: 800;
+}
+#verbalnumber2{
+    font-weight: 100;
+    color: #979391;
+}
+#visual{
+    background-color: #f3f3fd;
+}
+#visualTitle{
+    color: #3633ba;
+    font-weight: 700;
+}
+#visualnumber{
+    font-weight: 800;
+}
+#visualnumber2{
+    font-weight: 100;
+    color: #979391;
+}
+button{
+    background-color: #303b59;
+    color: white;
+    border-radius: 20px;
+}
+button:hover{
+    background: linear-gradient(to bottom, #6542fe, #362de4);
+}
